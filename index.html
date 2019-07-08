@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <script src="./CustomEvent.js"></script>
   <script src="./bundle.js"></script>
   <script src="./error.js"></script>
 </head>
@@ -12,7 +13,9 @@
   <script>
     var xhr = new XMLHttpRequest();
     xhr.open('POST', 'http://hubing.online:8081/Monitor/BrowserStatis');
-    xhr.send();
-  </script>
+    setTimeout(() => {
+      xhr.send();
+    }, 4000)
+    </script>
 </body>
 </html>
