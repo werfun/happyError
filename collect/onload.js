@@ -21,8 +21,8 @@
   };
 })();
 window.onload = (e) => {
-  console.log('22', +new Date, +new Date - a, e)
+  console.log('网页全部加载完成', e.timeStamp)
 }
 document.ready((e) => {
-  console.log('33', +new Date, +new Date - a, e)
+  console.log('网页可交互时间', e.timeStamp)
 })
