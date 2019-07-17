@@ -5,6 +5,8 @@ DROP TABLE IF EXISTS `user_info`;
 CREATE TABLE `user_info` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `ip` varchar(16) NOT NULL COMMENT '访问ip',
+  `country` varchar(32) NOT NULL,
+  `city` varchar(32) NOT NULL,
   `browser` varchar(16) COMMENT '浏览器',
   `platform` varchar(32) COMMENT '平台',
   `ratio` varchar(32) COMMENT '分辨率',
