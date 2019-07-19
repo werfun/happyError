@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var up = require('../mysql/up')
+var up = require('../controllers/up')
 var util = require('../utils')
 
 router.get('/', util.getIp,function (req, res, next) {

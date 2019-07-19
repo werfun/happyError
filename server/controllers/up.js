@@ -1,13 +1,37 @@
-var query = require('./mysql')
+var upModel = require('../models/upModel')
+var query = require('../mysql/mysql')
 var select = require('./select')
 
-// 创建用户
-function createUser (req, res) {
-  
+// 新增用户
+exports.createUser = async (req, res) => {
+  let { onlineip, country_nameCN, city_nameCN } = req.netInfo
+  let { browser, platform, ratio } = req.query
+  let sqlRes = await select.selectUser({ip: onlineip})
+  sqlRes.success && res.json({ success: false, msg: 'this user is exist' })
+
+  let info = {
+    id: null,
+    ip: onlineip,
+    country: country_nameCN,
+    city: city_nameCN,
+    browser,
+    platform,
+    ratio,
+    create_time: new Date
+  }
+
+  info = Object.values(info)
+  let r = []
+  r = await upModel.createUser(info)
+  if (r.success) {
+    res.json({ success: true, msg: 'ok' })
+  } else {
+    res.json({ success: false, msg: error })
+  }
 }
 
 // 浏览数据
-function createPage (req, res) {
+exports.createPage = async (req, res) => {
   let data = Objec.values(req.query)
   connection.connect()
   var sql = "INSERT INTO PAGE_INFO VALUES(?,?,?,?,?,?,?)"
@@ -19,7 +43,7 @@ function createPage (req, res) {
 }
 
 // js 错误收集
-function createJsError (req, res) {
+exports.createJsError = async (req, res) => {
   let data = Objec.values(req.query)
   connection.connect()
   var sql = "INSERT INTO JS_ERROR VALUES(?,?,?)"
@@ -31,7 +55,7 @@ function createJsError (req, res) {
 }
 
 // api访问收集
-function createApi (req, res) {
+exports.createApi = async (req, res) => {
   let data = Objec.values(req.query)
   connection.connect()
   var sql = "INSERT INTO API_ERROR VALUES(?,?,?,?,?)"
@@ -43,7 +67,7 @@ function createApi (req, res) {
 }
 
 // 浏览数据
-function createResourceLoad (req, res) {
+exports.createResourceLoad = async (req, res) => {
   let data = Objec.values(req.query)
   connection.connect()
   var sql = "INSERT INTO RESOURCE_LOAD VALUES(?,?,?,?)"
@@ -52,12 +76,4 @@ function createResourceLoad (req, res) {
     results && res.json({ success: true, msg: 'ok' })
   })
   connection.end()
-}
-
-module.exports = {
-  createUser,
-  createPage,
-  createJsError,
-  createApi,
-  createResourceLoad
 }

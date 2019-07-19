@@ -1,21 +1,22 @@
 var mysql      = require('mysql');
 var pool = mysql.createPool({
   host     : 'localhost',
+  port     : '3306',
   user     : 'root',
   password : '123456',
   database : 'happy_error'
 });
 
-var query = function(sql, data,callback){    
-  pool.getConnection((err,conn) => {    
-    if (err) {    
-      callback(err,null,null)   
-    } else {    
-      conn.query(sql, (qerr, vals, fields) => {    
-        //释放连接    
+var query = function(sql, data, callback){    
+  pool.getConnection((err, conn) => {    
+    if (err) {
+      callback(err, null, null)
+    } else {
+      console.log('mysql 连接成功!')
+      sql = mysql.format(sql, data)
+      conn.query(sql, (qerr, vals, fields) => {
         conn.release()
-        //事件驱动回调    
-        callback(qerr,vals,fields)   
+        callback(qerr, vals, fields)   
       })   
     } 
   })    
