@@ -12,7 +12,7 @@ var query = function(sql, data, callback){
     if (err) {
       callback(err, null, null)
     } else {
-      console.log('mysql 连接成功!')
+      console.log('sql 操作成功!', sql)
       sql = mysql.format(sql, data)
       conn.query(sql, (qerr, vals, fields) => {
         conn.release()

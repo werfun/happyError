@@ -1,9 +1,9 @@
 var query = require('../mysql/mysql')
 
-// 创建用户
-exports.createUser = (data) => {
+// 搜索用户
+exports.selectUser = (data) => {
   return new Promise(resolve => {
-    var sql = "INSERT INTO USER_INFO VALUES(?,?,?,?,?,?,?,?) "
+    var sql = "SELECT * FROM USER_INFO WHERE(?)"
     query(sql, data, (error, results, fields) => {
       if (results) resolve({success: true, res: results})
       else resolve({success: false, error: error})
@@ -11,8 +11,8 @@ exports.createUser = (data) => {
   })
 }
 
-// 浏览数据
-exports.createPage = async (data) => {
+// 搜索浏览数据
+exports.selectPage = async (data) => {
   return new Promise(resolve => {
     var sql = "INSERT INTO PAGE_INFO VALUES(?,?,?,?,?,?,?)"
     query(sql, data, (error, results, fields) => {

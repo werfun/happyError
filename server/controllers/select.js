@@ -1,14 +1,10 @@
-var query = require('../mysql/mysql')
+var selectModel = require('../models/selectModel')
 
 // 创建用户
-function selectUser (info, callBack) {
-  var sql = "SELECT id FROM USER_INFO WHERE(?)"
-  query(sql, info, function (error, results, fields) {
-    if (results) {
-      callBack({ success: true, result: results })
-    } else {
-      callBack({ success: false, msg: error })
-    }
+exports.selectUser = (info) => {
+  return new Promise(async resolve => {
+    let r = await selectModel.selectUser(info)
+    resolve(r)
   })
 }
 
@@ -58,12 +54,4 @@ function selectResourceLoad (req, res) {
     error ? callBack({ success: false, msg: error }) : callBack({ success: true, result: results })
   })
   connection.end()
-}
-
-module.exports = {
-  selectUser,
-  selectPage,
-  selectJsError,
-  selectApi,
-  selectResourceLoad
 }
