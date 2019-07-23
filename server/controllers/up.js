@@ -7,8 +7,8 @@ exports.createUser = async (req, res) => {
   let { onlineip, country_nameCN, city_nameCN } = req.netInfo
   let { browser, platform, ratio } = req.query
   let sqlRes = await select.selectUser({ip: onlineip})
-  if (sqlRes.success) {
-    return res.json({ success: false, msg: 'this user is exist' })
+  if (sqlRes.success && sqlRes.msg.length) {
+    return { success: true, msg: sqlRes }
   }
   let info = {
     id: null,
@@ -24,8 +24,9 @@ exports.createUser = async (req, res) => {
   info = Object.values(info)
   let r = []
   r = await upModel.createUser(info)
+  console.log('r', r)
   if (r.success) {
-    res.json({ success: true, msg: 'ok' })
+    res.json({ success: true, msg: r.msg })
   } else {
     res.json({ success: false, msg: r.error })
   }
@@ -33,13 +34,13 @@ exports.createUser = async (req, res) => {
 
 // 浏览数据
 exports.createPage = async (req, res) => {
-  let data = Objec.values(req.query)
-  let r = await upModel.createPage(data)
-  if (r.success) {
-    res.json({ success: true, msg: 'ok' })
-  } else {
-    res.json({ success: false, msg: r.error })
-  }
+  // let data = Object.values(req.body)
+  // let r = await upModel.createPage(data)
+  // if (r.success) {
+  //   res.json({ success: true, msg: 'ok' })
+  // } else {
+  //   res.json({ success: false, msg: r.error })
+  // }
 }
 
 // js 错误收集

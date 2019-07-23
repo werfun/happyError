@@ -5,9 +5,11 @@ exports.selectUser = (data) => {
   return new Promise(resolve => {
     var sql = "SELECT * FROM USER_INFO WHERE(?)"
     query(sql, data, (error, results, fields) => {
-      if (results) resolve({success: true, res: results})
+      console.log('resut', results)
+      if (results) resolve({success: true, msg: results})
       else resolve({success: false, error: error})
     })
+
   })
 }
 
@@ -16,7 +18,7 @@ exports.selectPage = async (data) => {
   return new Promise(resolve => {
     var sql = "INSERT INTO PAGE_INFO VALUES(?,?,?,?,?,?,?)"
     query(sql, data, (error, results, fields) => {
-      if (results) resolve({success: true, res: results})
+      if (results) resolve({success: true, msg: results})
       else resolve({success: false, error: error})
     })
   })

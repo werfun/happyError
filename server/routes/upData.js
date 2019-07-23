@@ -3,12 +3,12 @@ var router = express.Router();
 var up = require('../controllers/up')
 var util = require('../utils')
 
-router.get('/', util.getIp,function (req, res, next) {
+router.post('/', util.getIp, async function (req, res, next) {
   console.log(req.netInfo)
-  switch (req.query.type) {
-    case 'user':
-      up.createUser(req, res)
-      break
+  console.log(req.body, req.body.type)
+  let user = await up.createUser(req, res)
+  req.body.user = user
+  switch (req.body.type) {
     case 'page':
       up.createPage(req, res)
       break

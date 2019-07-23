@@ -2,7 +2,9 @@ var express = require('express');
 var path = require('path');
 var indexRouter = require('./routes/index');
 var upDataRouter = require('./routes/upData');
+var bodyParser = require('body-parser')
 var app = express();
+var jsonParser = bodyParser.json()
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -17,6 +19,9 @@ app.all('*', function(req, res, next) {
   if (req.method == "OPTIONS") res.sendStatus(200);
   else next();
 });
+
+app.use(bodyParser.text())
+app.use(jsonParser)
 
 app.use('/', indexRouter);
 app.use('/up', upDataRouter);

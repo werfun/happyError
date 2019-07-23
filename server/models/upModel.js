@@ -5,7 +5,7 @@ exports.createUser = (data) => {
   return new Promise(resolve => {
     var sql = "INSERT INTO USER_INFO VALUES(?,?,?,?,?,?,?,?) "
     query(sql, data, (error, results, fields) => {
-      if (results) resolve({success: true, res: results})
+      if (results) resolve({success: true, msg: results})
       else resolve({success: false, error: error})
     })
   })
@@ -16,7 +16,7 @@ exports.createPage = async (data) => {
   return new Promise(resolve => {
     var sql = "INSERT INTO PAGE_INFO VALUES(?,?,?,?,?,?,?)"
     query(sql, data, (error, results, fields) => {
-      if (results) resolve({success: true, res: results})
+      if (results) resolve({success: true, msg: results})
       else resolve({success: false, error: error})
     })
   })

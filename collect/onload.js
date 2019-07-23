@@ -20,9 +20,29 @@
      }, 0);
   };
 })();
+
+
+window.$happyError = {
+  ratio: {
+    width: window.screen.width,
+    height: window.screen.height
+  }
+}
+
 window.onload = (e) => {
   console.log('网页全部加载完成', e.timeStamp)
+  window.$happyError.onloadTime = e.timeStamp
+  _ajax({
+    url: '/up',
+    type: 'post',
+    data: {
+      type: 'page',
+      ...window.$happyError
+    },
+  })
 }
+
 document.ready((e) => {
   console.log('网页可交互时间', e.timeStamp)
+  window.$happyError.readyTime = e.timeStamp
 })
