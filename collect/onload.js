@@ -26,11 +26,16 @@ window.$happyError = {
   ratio: {
     width: window.screen.width,
     height: window.screen.height
-  }
+  },
+  onloadTime: 0,
+  readyTime: 0
 }
 
+// 网页可交互时间
+document.ready((e) => window.$happyError.readyTime = e.timeStamp)
+
+// 网页全部加载完成
 window.onload = (e) => {
-  console.log('网页全部加载完成', e.timeStamp)
   window.$happyError.onloadTime = e.timeStamp
   _ajax({
     url: '/up',
@@ -41,8 +46,3 @@ window.onload = (e) => {
     },
   })
 }
-
-document.ready((e) => {
-  console.log('网页可交互时间', e.timeStamp)
-  window.$happyError.readyTime = e.timeStamp
-})

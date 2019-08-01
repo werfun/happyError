@@ -33,7 +33,6 @@ exports.createJsError = async (data) => {
   })
 }
 
-
 // api访问收集
 exports.createApi = async (data) => {
   return new Promise(resolve => {

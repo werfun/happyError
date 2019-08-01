@@ -34,13 +34,24 @@ exports.createUser = async (req, res) => {
 
 // 浏览数据
 exports.createPage = async (req, res) => {
-  // let data = Object.values(req.body)
-  // let r = await upModel.createPage(data)
-  // if (r.success) {
-  //   res.json({ success: true, msg: 'ok' })
-  // } else {
-  //   res.json({ success: false, msg: r.error })
-  // }
+  let data = req.body
+  console.log('data', req)
+  let msg = {
+    id: null,
+    user_id: data.user.id,
+    url: req.headers.referer,
+    project: null,
+    readyTime: parseInt(data.readyTime),
+    onloadTime: parseInt(data.onloadTime),
+    duringTime: null,
+    createTime: +new Date
+  }
+  let r = await upModel.createPage(msg)
+  if (r.success) {
+    res.json({ success: true, msg: 'ok' })
+  } else {
+    res.json({ success: false, msg: r.error })
+  }
 }
 
 // js 错误收集

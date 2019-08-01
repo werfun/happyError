@@ -9,7 +9,6 @@ exports.selectUser = (data) => {
       if (results) resolve({success: true, msg: results})
       else resolve({success: false, error: error})
     })
-
   })
 }
 
@@ -34,7 +33,6 @@ exports.createJsError = async (data) => {
     })
   })
 }
-
 
 // api访问收集
 exports.createApi = async (data) => {

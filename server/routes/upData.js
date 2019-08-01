@@ -4,10 +4,11 @@ var up = require('../controllers/up')
 var util = require('../utils')
 
 router.post('/', util.getIp, async function (req, res, next) {
-  console.log(req.netInfo)
-  console.log(req.body, req.body.type)
+  // console.log(req.netInfo)
+  // console.log(req.body, req.body.type)
   let user = await up.createUser(req, res)
-  req.body.user = user
+  if (!user.success) res.json(user)
+  req.body.user = user.msg.msg[0]
   switch (req.body.type) {
     case 'page':
       up.createPage(req, res)
