@@ -13,6 +13,9 @@ router.post('/', util.getIp, async function (req, res, next) {
     case 'page':
       up.createPage(req, res)
       break
+    case 'updatePage':
+      up.updatePage(req, res)
+      break
     case 'js':
       up.createJsError(req, res)
       break

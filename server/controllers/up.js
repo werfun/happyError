@@ -10,7 +10,7 @@ exports.createUser = async (req, res) => {
   if (sqlRes.success && sqlRes.msg.length) {
     return { success: true, msg: sqlRes }
   }
-  let info = {
+  let info = Object.values({
     id: null,
     ip: onlineip,
     country: country_nameCN,
@@ -19,39 +19,37 @@ exports.createUser = async (req, res) => {
     platform,
     ratio,
     create_time: new Date
-  }
-
-  info = Object.values(info)
-  let r = []
-  r = await upModel.createUser(info)
-  console.log('r', r)
-  if (r.success) {
-    res.json({ success: true, msg: r.msg })
-  } else {
-    res.json({ success: false, msg: r.error })
-  }
+  })
+  let r = await upModel.createUser(info)
+  return r
 }
 
 // 浏览数据
 exports.createPage = async (req, res) => {
   let data = req.body
-  console.log('data', req)
-  let msg = {
+  let msg = Object.values({
     id: null,
     user_id: data.user.id,
     url: req.headers.referer,
     project: null,
-    readyTime: parseInt(data.readyTime),
-    onloadTime: parseInt(data.onloadTime),
-    duringTime: null,
-    createTime: +new Date
-  }
+    ready_time: parseInt(data.readyTime),
+    onload_time: parseInt(data.onloadTime),
+    during_time: null,
+    create_time: new Date(data.createTime)
+  })
   let r = await upModel.createPage(msg)
-  if (r.success) {
-    res.json({ success: true, msg: 'ok' })
-  } else {
-    res.json({ success: false, msg: r.error })
-  }
+  res.json(r)
+}
+
+// 浏览数据
+exports.updatePage = async (req, res) => {
+  let data = req.body
+  let msg = Object.values({
+    during_time: data.duringTime,
+    id: data.id
+  })
+  let r = await upModel.updatePage(msg)
+  res.json(r)
 }
 
 // js 错误收集

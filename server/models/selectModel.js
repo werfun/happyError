@@ -7,7 +7,7 @@ exports.selectUser = (data) => {
     query(sql, data, (error, results, fields) => {
       console.log('resut', results)
       if (results) resolve({success: true, msg: results})
-      else resolve({success: false, error: error})
+      else resolve({success: false, msg: error})
     })
   })
 }
@@ -18,7 +18,7 @@ exports.selectPage = async (data) => {
     var sql = "INSERT INTO PAGE_INFO VALUES(?,?,?,?,?,?,?)"
     query(sql, data, (error, results, fields) => {
       if (results) resolve({success: true, msg: results})
-      else resolve({success: false, error: error})
+      else resolve({success: false, msg: error})
     })
   })
 }
@@ -29,7 +29,7 @@ exports.createJsError = async (data) => {
     var sql = "INSERT INTO JS_ERROR VALUES(?,?,?)"
     query(sql, data, (error, results, fields) => {
       if (results) resolve({success: true, res: results})
-      else resolve({success: false, error: error})
+      else resolve({success: false, msg: error})
     })
   })
 }
@@ -40,7 +40,7 @@ exports.createApi = async (data) => {
     var sql = "INSERT INTO API_ERROR VALUES(?,?,?,?,?)"
     query(sql, data, (error, results, fields) => {
       if (results) resolve({success: true, res: results})
-      else resolve({success: false, error: error})
+      else resolve({success: false, msg: error})
     })
   })
 }
@@ -51,7 +51,7 @@ exports.createResourceLoad = async (data) => {
     var sql = "INSERT INTO RESOURCE_LOAD VALUES(?,?,?,?)"
     query(sql, data, (error, results, fields) => {
       if (results) resolve({success: true, res: results})
-      else resolve({success: false, error: error})
+      else resolve({success: false, msg: error})
     })
   })
 }

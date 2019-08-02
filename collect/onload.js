@@ -28,21 +28,37 @@ window.$happyError = {
     height: window.screen.height
   },
   onloadTime: 0,
-  readyTime: 0
+  readyTime: 0,
+  createTime: +new Date()
 }
 
 // 网页可交互时间
-document.ready((e) => window.$happyError.readyTime = e.timeStamp)
+document.ready((e) => $happyError.readyTime = e.timeStamp)
 
 // 网页全部加载完成
 window.onload = (e) => {
-  window.$happyError.onloadTime = e.timeStamp
+  $happyError.onloadTime = e.timeStamp
   _ajax({
     url: '/up',
     type: 'post',
     data: {
       type: 'page',
-      ...window.$happyError
+      ...$happyError
     },
+  }).then(res => {
+    if (res.success) {
+      let createTime = $happyError.createTime
+      setInterval(() => {
+        _ajax({
+          url: '/up',
+          type: 'post',
+          data: {
+            type: 'updatePage',
+            id: res.msg.insertId,
+            duringTime: +new Date() - createTime
+          },
+        })
+      }, 15000)
+    }
   })
 }

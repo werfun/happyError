@@ -2,13 +2,11 @@
   function _ajax ({
     type,
     url,
-    data,
-    dataType
+    data
   }) {
     let baseUrl = 'http://127.0.0.1:1212'
     let vals = []
     url = baseUrl + url
-    dataType = dataType || "text"
     return new Promise(function(resolve){
       var xhr=new XMLHttpRequest()
       if(type=="get"&&data!==undefined) {
@@ -18,6 +16,11 @@
         vals.length && (url += `?${vals.join('&')}`)
       }
       xhr.open(type,url,true)
+      xhr.onreadystatechange=function(){
+        if(xhr.readyState==4&&xhr.status==200){
+          resolve(JSON.parse(xhr.responseText));
+        }
+      }
       if(type.toLowerCase()=="post") xhr.setRequestHeader("Content-Type","application/json");
       xhr.send(type=="post"?JSON.stringify(data):null)
     })
