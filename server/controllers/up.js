@@ -1,23 +1,22 @@
 var upModel = require('../models/upModel')
-var query = require('../mysql/mysql')
 var select = require('./select')
 
 // 新增用户
 exports.createUser = async (req, res) => {
   let { onlineip, country_nameCN, city_nameCN } = req.netInfo
-  let { browser, platform, ratio } = req.query
+  let { ratio } = req.body
   let sqlRes = await select.selectUser({ip: onlineip})
   if (sqlRes.success && sqlRes.msg.length) {
-    return { success: true, msg: sqlRes }
+    return sqlRes
   }
   let info = Object.values({
     id: null,
     ip: onlineip,
     country: country_nameCN,
     city: city_nameCN,
-    browser,
-    platform,
-    ratio,
+    browser: req.browser,
+    platform: req.platform,
+    ratio: JSON.stringify(ratio),
     create_time: new Date
   })
   let r = await upModel.createUser(info)
@@ -54,13 +53,15 @@ exports.updatePage = async (req, res) => {
 
 // js 错误收集
 exports.createJsError = async (req, res) => {
-  let data = Objec.values(req.query)
-  let r = await upModel.createJsError(data)
-  if (r.success) {
-    res.json({ success: true, msg: 'ok' })
-  } else {
-    res.json({ success: false, msg: r.error })
-  }
+  let data = req.body
+  let msg = Object.values({
+    id: null,
+    user_id: data.user.id,
+    msg: JSON.stringify(data.msg),
+    create_time: new Date
+  })
+  let r = await upModel.createJsError(msg)
+  res.json(r)
 }
 
 // api访问收集

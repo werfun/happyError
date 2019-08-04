@@ -10,21 +10,21 @@
   function newXHR() {
    var realXHR = new oldXHR();
 
-   realXHR.addEventListener('abort', function (ev) { ajaxEventTrigger.call(this, ev); }, false);
+  //  realXHR.addEventListener('abort', function (ev) { ajaxEventTrigger.call(this, ev); }, false);
     
-   realXHR.addEventListener('error', function (ev) { ajaxEventTrigger.call(this, ev); }, false);
+  //  realXHR.addEventListener('error', function (ev) { ajaxEventTrigger.call(this, ev); }, false);
     
-   realXHR.addEventListener('load', function (ev) { ajaxEventTrigger.call(this, ev); }, false);
+  //  realXHR.addEventListener('load', function (ev) { ajaxEventTrigger.call(this, ev); }, false);
     
-   realXHR.addEventListener('loadstart', function (ev) { ajaxEventTrigger.call(this, ev); }, false);
+  //  realXHR.addEventListener('loadstart', function (ev) { ajaxEventTrigger.call(this, ev); }, false);
     
-   realXHR.addEventListener('progress', function (ev) { ajaxEventTrigger.call(this, ev); }, false);
+  //  realXHR.addEventListener('progress', function (ev) { ajaxEventTrigger.call(this, ev); }, false);
     
-   realXHR.addEventListener('timeout', function (ev) { ajaxEventTrigger.call(this, ev); }, false);
-    
+  //  realXHR.addEventListener('timeout', function (ev) { ajaxEventTrigger.call(this, ev); }, false);
+
    realXHR.addEventListener('loadend', function (ev) { ajaxEventTrigger.call(this, ev); }, false);
     
-   realXHR.addEventListener('readystatechange', function(ev) { ajaxEventTrigger.call(this, ev); }, false);
+  //  realXHR.addEventListener('readystatechange', function(ev) { ajaxEventTrigger.call(this, ev); }, false);
     
    return realXHR;
   }

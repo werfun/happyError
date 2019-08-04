@@ -5,7 +5,6 @@ exports.selectUser = (data) => {
   return new Promise(resolve => {
     var sql = "SELECT * FROM USER_INFO WHERE(?)"
     query(sql, data, (error, results, fields) => {
-      console.log('resut', results)
       if (results) resolve({success: true, msg: results})
       else resolve({success: false, msg: error})
     })

@@ -36,7 +36,7 @@ exports.updatePage = async (data) => {
 // js 错误收集
 exports.createJsError = async (data) => {
   return new Promise(resolve => {
-    var sql = "INSERT INTO JS_ERROR VALUES(?,?,?)"
+    var sql = "INSERT INTO JS_ERROR VALUES(?,?,?,?)"
     query(sql, data, (error, results, fields) => {
       if (results) resolve({success: true, res: results})
       else resolve({success: false, msg: error})
