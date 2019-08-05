@@ -5,7 +5,6 @@ function getResource() {
   }
 
   var result = [];
-  // 获取当前页面所有请求对应的PerformanceResourceTiming对象进行分析
   window.performance.getEntries().forEach(item => {
     result.push({
       url: item.name,
@@ -16,6 +15,5 @@ function getResource() {
   });
 
   // 控制台输出统计结果
-  console.table(result);
   return result
 }

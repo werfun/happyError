@@ -4,8 +4,6 @@ var up = require('../controllers/up')
 var util = require('../utils')
 
 router.post('/', util.getIp, util.getPlatform, async function (req, res, next) {
-  // console.log(req.netInfo)
-  // console.log(req.body, req.body.type)
   let user = await up.createUser(req, res)
   if (!user.success) res.json(user)
   req.body.user = user.msg[0]
@@ -17,8 +15,8 @@ router.post('/', util.getIp, util.getPlatform, async function (req, res, next) {
       up.updatePage(req, res)
       break
     case 'js':
-      // up.createJsError(req, res)
-      res.status(400).send({ code: 404, msg: 'Bad Request' });
+      up.createJsError(req, res)
+      // res.status(400).send({ code: 404, msg: 'Bad Request' });
       break
     case 'api':
       up.createApi(req, res)
@@ -29,7 +27,7 @@ router.post('/', util.getIp, util.getPlatform, async function (req, res, next) {
     default:
       res.json({
         success: false,
-        msg: 'type not null'
+        msg: 'type is null'
       })
   }
 });

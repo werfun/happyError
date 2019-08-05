@@ -48,18 +48,18 @@ window.onload = (e) => {
   }).then(res => {
     if (res.success) {
       let createTime = $happyError.createTime
-      // setInterval(() => {
-      //   // 更新用户浏览时间
-      //   _ajax({
-      //     url: '/up',
-      //     type: 'post',
-      //     data: {
-      //       type: 'updatePage',
-      //       id: res.msg.insertId,
-      //       duringTime: +new Date() - createTime
-      //     },
-      //   })
-      // }, 15000)
+      setInterval(() => {
+        // 更新用户浏览时间
+        _ajax({
+          url: '/up',
+          type: 'post',
+          data: {
+            type: 'updatePage',
+            id: res.msg.insertId,
+            duringTime: +new Date() - createTime
+          },
+        })
+      }, 15000)
       
       // 资源加载详情信息
       _ajax({
