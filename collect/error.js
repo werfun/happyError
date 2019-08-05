@@ -27,4 +27,3 @@ window.addEventListener("unhandledrejection", function (e) {
   upError(e)
   return true;
 });
-throw new Error('aa')

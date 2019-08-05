@@ -12,7 +12,6 @@ var query = function(sql, data, callback){
     if (err) {
       callback(err, null, null)
     } else {
-      console.log('sql 操作成功!', sql, data)
       sql = mysql.format(sql, data)
       conn.query(sql, (qerr, vals, fields) => {
         conn.release()
@@ -20,6 +19,16 @@ var query = function(sql, data, callback){
       })   
     } 
   })    
-}  
+}
 
-module.exports = query
+let execSql = (sql, data) => {
+  return new Promise(resolve => {
+    query(sql, data, (error, results, fields) => {
+      console.log('sql执行', sql, data, error, results)
+      if (results) resolve({success: true, msg: results})
+      else resolve({success: false, msg: error})
+    })
+  })
+}
+
+module.exports = execSql

@@ -2,6 +2,7 @@ var express = require('express');
 var path = require('path');
 var indexRouter = require('./routes/index');
 var upDataRouter = require('./routes/upData');
+var getDataRouter = require('./routes/getData');
 var bodyParser = require('body-parser')
 var app = express();
 var jsonParser = bodyParser.json()
@@ -25,6 +26,7 @@ app.use(jsonParser)
 
 app.use('/', indexRouter);
 app.use('/up', upDataRouter);
+app.use('/get', getDataRouter);
 
 app.listen(1212);
 console.log('服务已启动', 'http://127.0.0.1:1212')

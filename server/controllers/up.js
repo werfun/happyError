@@ -1,11 +1,11 @@
 var upModel = require('../models/upModel')
-var select = require('./select')
+var selectModel = require('../models/selectModel')
 
 // 新增用户
 exports.createUser = async (req, res) => {
   let { onlineip, country_nameCN, city_nameCN } = req.netInfo
   let { ratio } = req.body
-  let sqlRes = await select.selectUser({ip: onlineip})
+  let sqlRes = await selectModel.selectUser({ip: onlineip})
   if (sqlRes.success && sqlRes.msg.length) {
     return sqlRes
   }

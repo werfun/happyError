@@ -1,56 +1,43 @@
-var query = require('../mysql/mysql')
+var execSql = require('../mysql/mysql')
 
 // 搜索用户
 exports.selectUser = (data) => {
-  return new Promise(resolve => {
-    var sql = "SELECT * FROM USER_INFO WHERE(?)"
-    query(sql, data, (error, results, fields) => {
-      if (results) resolve({success: true, msg: results})
-      else resolve({success: false, msg: error})
-    })
-  })
+  let sql = "SELECT * FROM USER_INFO WHERE(?)"
+  return execSql(sql, data)
+}
+
+// 搜索用户
+exports.selectUserCount = async (data) => {
+  let sql = "SELECT count(*) as count FROM USER_INFO"
+  return execSql(sql, data)
+}
+
+// 搜索用户
+exports.selectUserAll = async (data) => {
+  let sql = "SELECT * FROM USER_INFO LIMIT ?,?"
+  return execSql(sql, data)
 }
 
 // 搜索浏览数据
 exports.selectPage = async (data) => {
-  return new Promise(resolve => {
-    var sql = "INSERT INTO PAGE_INFO VALUES(?,?,?,?,?,?,?)"
-    query(sql, data, (error, results, fields) => {
-      if (results) resolve({success: true, msg: results})
-      else resolve({success: false, msg: error})
-    })
-  })
+  let sql = "SELECT * FROM PAGE_INFO WHERE(?)"
+  return execSql(sql, data)
 }
 
 // js 错误收集
-exports.createJsError = async (data) => {
-  return new Promise(resolve => {
-    var sql = "INSERT INTO JS_ERROR VALUES(?,?,?)"
-    query(sql, data, (error, results, fields) => {
-      if (results) resolve({success: true, res: results})
-      else resolve({success: false, msg: error})
-    })
-  })
+exports.selectJsError = async (data) => {
+  var sql = "SELECT * FROM JS_ERROR WHERE(?)"
+  return execSql(sql, data)
 }
 
 // api访问收集
-exports.createApi = async (data) => {
-  return new Promise(resolve => {
-    var sql = "INSERT INTO API_ERROR VALUES(?,?,?,?,?)"
-    query(sql, data, (error, results, fields) => {
-      if (results) resolve({success: true, res: results})
-      else resolve({success: false, msg: error})
-    })
-  })
+exports.selectApi = async (data) => {
+  var sql = "SELECT * FROM API_ERROR WHERE(?)"
+  return execSql(sql, data)
 }
 
 // 浏览数据
-exports.createResourceLoad = async (data) => {
-  return new Promise(resolve => {
-    var sql = "INSERT INTO RESOURCE_LOAD VALUES(?,?,?,?)"
-    query(sql, data, (error, results, fields) => {
-      if (results) resolve({success: true, res: results})
-      else resolve({success: false, msg: error})
-    })
-  })
+exports.selectResourceLoad = async (data) => {
+  var sql = "SELECT * FROM RESOURCE_LOAD WHERE(?)"
+  return execSql(sql, data)
 }
