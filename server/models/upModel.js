@@ -47,7 +47,7 @@ exports.createJsError = async (data) => {
 // api访问收集
 exports.createApi = async (data) => {
   return new Promise(resolve => {
-    var sql = "INSERT INTO API_ERROR VALUES(?,?,?,?,?)"
+    var sql = "INSERT INTO API_ERROR VALUES(?,?,?,?,?,?)"
     query(sql, data, (error, results, fields) => {
       if (results) resolve({success: true, res: results})
       else resolve({success: false, msg: error})

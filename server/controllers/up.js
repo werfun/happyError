@@ -66,13 +66,17 @@ exports.createJsError = async (req, res) => {
 
 // api访问收集
 exports.createApi = async (req, res) => {
-  let data = Objec.values(req.query)
-  let r = await upModel.createApi(data)
-  if (r.success) {
-    res.json({ success: true, msg: 'ok' })
-  } else {
-    res.json({ success: false, msg: r.error })
-  }
+  let data = req.body
+  let msg = Object.values({
+    id: null,
+    user_id: data.user.id,
+    request_url: data.request_url,
+    error_code: data.error_code,
+    msg: data.msg,
+    create_time: new Date
+  })
+  let r = await upModel.createApi(msg)
+  res.json(r)
 }
 
 // 浏览数据
