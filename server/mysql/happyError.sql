@@ -56,11 +56,13 @@ CREATE TABLE `api_error` (
 DROP TABLE IF EXISTS `resource_load`;
 CREATE TABLE `resource_load` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `user_id` int(10) unsigned NOT NULL COMMENT '用户id',
-  `resource_url` varchar(32) NOT NULL,
-  `initiator_type` enum('xhr', 'js', 'css', 'img', 'other') NOT NULL DEFAULT 'other',
+  `page_id` int(10) unsigned NOT NULL COMMENT '浏览id',
+  `url` varchar(255) NOT NULL,
+  `entry_type` varchar(128) NOT NULL,
+  `type` varchar(128) NOT NULL,
+  `duration` int(10) NULL COMMENT '加载持续时间',
   `create_time` timestamp NULL,
   PRIMARY KEY (`id`),
-  KEY `resource_load_user_id_foreign` (`user_id`),
-  CONSTRAINT `resource_load_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `USER_INFO` (`id`)
+  KEY `resource_load_page_id_foreign` (`page_id`),
+  CONSTRAINT `resource_load_page_id_foreign` FOREIGN KEY (`page_id`) REFERENCES `PAGE_INFO` (`id`)
 ) CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='资源加载详情表';

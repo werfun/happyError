@@ -81,11 +81,18 @@ exports.createApi = async (req, res) => {
 
 // 浏览数据
 exports.createResourceLoad = async (req, res) => {
-  let data = Objec.values(req.query)
-  let r = await upModel.createResourceLoad(data)
-  if (r.success) {
-    res.json({ success: true, msg: 'ok' })
-  } else {
-    res.json({ success: false, msg: r.error })
-  }
+  let data = req.body
+  let msg = data.msg.map(item => {
+    return Object.values({
+      id: null,
+      page_id: data.id,
+      url: item.url,
+      entry_type: item.entryType,
+      type: item.type,
+      duration: parseInt(item.duration),
+      create_time: new Date
+    })
+  })
+  let r = await upModel.createResourceLoad(msg)
+  res.json(r)
 }

@@ -54,11 +54,11 @@ exports.createApi = async (data) => {
     })
   })
 }
-
+// (id, page_id, url, entry_type, type, duration, create_time)
 // 浏览数据
 exports.createResourceLoad = async (data) => {
   return new Promise(resolve => {
-    var sql = "INSERT INTO RESOURCE_LOAD VALUES(?,?,?,?)"
+    var sql = "INSERT INTO RESOURCE_LOAD VALUES (?)"
     query(sql, data, (error, results, fields) => {
       if (results) resolve({success: true, res: results})
       else resolve({success: false, msg: error})
