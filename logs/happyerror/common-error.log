@@ -1,0 +1,72 @@
+2019-08-06 21:40:44,838 ERROR 10098 [-/::1/-/7ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/xb/Documents/happyError/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/xb/Documents/happyError/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/xb/Documents/happyError/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/xb/Documents/happyError/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/xb/Documents/happyError/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at /Users/xb/Documents/happyError/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/xb/Documents/happyError/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+
+pid: 10098
+hostname: mac.local
+
+2019-08-06 22:44:06,001 ERROR 10972 [-/127.0.0.1/-/27ms GET /up] nodejs.TypeError: ctx.body is not a function
+    at getIp (/Users/xb/Documents/happyError/app/middleware/getIp.js:6:9)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at /Users/xb/Documents/happyError/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/xb/Documents/happyError/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/xb/Documents/happyError/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/xb/Documents/happyError/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 10972
+hostname: mac.local
+
+2019-08-06 22:59:29,380 ERROR 11051 [-/127.0.0.1/-/8ms GET /up] nodejs.ReferenceError: ctx is not defined
+    at Object.exports.getIp (/Users/xb/Documents/happyError/app/utils/index.js:48:28)
+    at getIp (/Users/xb/Documents/happyError/app/middleware/getIp.js:5:10)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at /Users/xb/Documents/happyError/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/xb/Documents/happyError/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/xb/Documents/happyError/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+
+pid: 11051
+hostname: mac.local
+
+2019-08-06 22:59:55,334 ERROR 11062 [-/127.0.0.1/-/12ms GET /up] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/xb/Documents/happyError/node_modules/koa/lib/application.js:243:15)
+    at handleResponse (/Users/xb/Documents/happyError/node_modules/koa/lib/application.js:149:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 11062
+hostname: mac.local
+
+2019-08-06 23:00:30,348 ERROR 11070 [-/127.0.0.1/-/13ms GET /up] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/xb/Documents/happyError/node_modules/koa/lib/application.js:243:15)
+    at handleResponse (/Users/xb/Documents/happyError/node_modules/koa/lib/application.js:149:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 11070
+hostname: mac.local
+
+2019-08-06 23:04:52,500 ERROR 11253 [-/127.0.0.1/-/13ms GET /up] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/xb/Documents/happyError/node_modules/koa/lib/application.js:243:15)
+    at handleResponse (/Users/xb/Documents/happyError/node_modules/koa/lib/application.js:149:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 11253
+hostname: mac.local
+

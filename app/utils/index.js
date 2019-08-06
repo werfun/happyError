@@ -34,7 +34,7 @@ let provinceData = [
     "台湾省"
 ]
 
-exports.getIp = function (req, res, next) {
+exports.getIp = function (req, next) {
   let netInfo = {
       city_nameCN: '未知',
       country_nameCN: '未知',
@@ -106,7 +106,7 @@ function getClientIP (req) {
   return ip
 };
 
-exports.getPlatform = function (req, res, next) {
+exports.getPlatform = function (req, next) {
   req.platform = getPlatform(req.headers['user-agent']);
   req.browser = getBrowser(req.headers['user-agent']);
   next()

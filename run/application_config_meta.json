@@ -1,0 +1,303 @@
+{
+  "keys": "/Users/xb/Documents/happyError/config/config.default.js",
+  "middleware": "/Users/xb/Documents/happyError/config/config.default.js",
+  "Sequelize": {
+    "dialect": "/Users/xb/Documents/happyError/config/config.default.js",
+    "host": "/Users/xb/Documents/happyError/config/config.default.js",
+    "port": "/Users/xb/Documents/happyError/config/config.default.js",
+    "username": "/Users/xb/Documents/happyError/config/config.default.js",
+    "password": "/Users/xb/Documents/happyError/config/config.default.js",
+    "database": "/Users/xb/Documents/happyError/config/config.default.js",
+    "pool": {
+      "max": "/Users/xb/Documents/happyError/config/config.default.js",
+      "min": "/Users/xb/Documents/happyError/config/config.default.js"
+    },
+    "timezone": "/Users/xb/Documents/happyError/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/xb/Documents/happyError/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/xb/Documents/happyError/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/xb/Documents/happyError/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/xb/Documents/happyError/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/xb/Documents/happyError/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/xb/Documents/happyError/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/xb/Documents/happyError/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/xb/Documents/happyError/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/xb/Documents/happyError/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/xb/Documents/happyError/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/xb/Documents/happyError/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/xb/Documents/happyError/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/xb/Documents/happyError/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/xb/Documents/happyError/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/xb/Documents/happyError/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/xb/Documents/happyError/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/xb/Documents/happyError/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/xb/Documents/happyError/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/xb/Documents/happyError/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/xb/Documents/happyError/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/xb/Documents/happyError/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/xb/Documents/happyError/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/xb/Documents/happyError/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/xb/Documents/happyError/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/xb/Documents/happyError/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/xb/Documents/happyError/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/xb/Documents/happyError/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/xb/Documents/happyError/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/xb/Documents/happyError/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/xb/Documents/happyError/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/xb/Documents/happyError/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/xb/Documents/happyError/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/xb/Documents/happyError/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/xb/Documents/happyError/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/xb/Documents/happyError/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/xb/Documents/happyError/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/xb/Documents/happyError/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/xb/Documents/happyError/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/xb/Documents/happyError/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/xb/Documents/happyError/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/xb/Documents/happyError/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/xb/Documents/happyError/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/xb/Documents/happyError/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/xb/Documents/happyError/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/xb/Documents/happyError/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/xb/Documents/happyError/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/xb/Documents/happyError/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/xb/Documents/happyError/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/xb/Documents/happyError/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/xb/Documents/happyError/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/xb/Documents/happyError/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/xb/Documents/happyError/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/xb/Documents/happyError/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/xb/Documents/happyError/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/xb/Documents/happyError/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/xb/Documents/happyError/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/xb/Documents/happyError/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+  "name": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+    "version": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+    "description": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+    "main": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "test": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "gulp": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "start": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "mysql": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "url": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+    "license": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+    "bugs": {
+      "url": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js"
+    },
+    "homepage": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "@babel/core": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "@babel/preset-env": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "body-parser": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "egg": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "egg-sequelize": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "ejs": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "evenboy-ip2region": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "express": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "gulp": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "gulp-babel": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "gulp-changed": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "gulp-concat": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "gulp-rename": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "gulp-sourcemaps": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "gulp-uglify": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "mysql": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "nodemon": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "path": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "pump": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "run-sequence": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "@babel/plugin-transform-runtime": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+    "strict": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "depth": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+    "env": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+    "level": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/xb/Documents/happyError/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+    "logging": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "port": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js"
+}

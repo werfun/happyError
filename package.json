@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "gulp": "gulp",
-    "start": "nodemon ./server/app.js",
+    "start": "egg-bin dev",
     "mysql": "mysql.server start"
   },
   "repository": {
@@ -23,6 +23,9 @@
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "body-parser": "^1.19.0",
+    "egg": "^2.23.0",
+    "egg-bin": "^4.13.0",
+    "egg-sequelize": "^5.2.0",
     "ejs": "^2.6.2",
     "evenboy-ip2region": "^0.0.3",
     "express": "^4.17.1",
