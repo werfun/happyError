@@ -16,9 +16,9 @@ var query = function(sql, data, callback){
       conn.query(sql, (qerr, vals, fields) => {
         conn.release()
         callback(qerr, vals, fields)   
-      })   
-    } 
-  })    
+      })
+    }
+  })
 }
 
 let execSql = (sql, data) => {
