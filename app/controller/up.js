@@ -3,7 +3,10 @@
 const Controller = require('egg').Controller
 class UpController extends Controller {
   async index() {
-    this.ctx.body = 'Hello world';
+    const { ctx } = this
+    console.log('-----------')
+    ctx.body = ctx.netInfo
+    ctx.status = 200
   }
 }
 

@@ -70,3 +70,790 @@ hostname: mac.local
 pid: 11253
 hostname: mac.local
 
+2019-08-09 18:47:37,523 ERROR 9922 nodejs.TypeError: ctx.res.json is not a function
+    at UpController.index (/Users/xb/Documents/happyError/app/controller/up.js:9:13)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/xb/Documents/happyError/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9922
+hostname: mac.local
+
+2019-08-09 18:47:38,052 ERROR 9922 nodejs.TypeError: ctx.res.json is not a function
+    at UpController.index (/Users/xb/Documents/happyError/app/controller/up.js:9:13)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/xb/Documents/happyError/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9922
+hostname: mac.local
+
+2019-08-09 18:47:38,272 ERROR 9922 nodejs.TypeError: ctx.res.json is not a function
+    at UpController.index (/Users/xb/Documents/happyError/app/controller/up.js:9:13)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/xb/Documents/happyError/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9922
+hostname: mac.local
+
+2019-08-09 18:47:38,436 ERROR 9922 nodejs.TypeError: ctx.res.json is not a function
+    at UpController.index (/Users/xb/Documents/happyError/app/controller/up.js:9:13)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/xb/Documents/happyError/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9922
+hostname: mac.local
+
+2019-08-09 18:47:44,697 ERROR 9930 nodejs.TypeError: ctx.body is not a function
+    at UpController.index (/Users/xb/Documents/happyError/app/controller/up.js:9:9)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/xb/Documents/happyError/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9930
+hostname: mac.local
+
+2019-08-09 18:47:45,151 ERROR 9930 nodejs.TypeError: ctx.body is not a function
+    at UpController.index (/Users/xb/Documents/happyError/app/controller/up.js:9:9)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/xb/Documents/happyError/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9930
+hostname: mac.local
+
+2019-08-09 18:47:45,312 ERROR 9930 nodejs.TypeError: ctx.body is not a function
+    at UpController.index (/Users/xb/Documents/happyError/app/controller/up.js:9:9)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/xb/Documents/happyError/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9930
+hostname: mac.local
+
+2019-08-09 18:47:45,469 ERROR 9930 nodejs.TypeError: ctx.body is not a function
+    at UpController.index (/Users/xb/Documents/happyError/app/controller/up.js:9:9)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/xb/Documents/happyError/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9930
+hostname: mac.local
+
+2019-08-09 18:47:45,608 ERROR 9930 nodejs.TypeError: ctx.body is not a function
+    at UpController.index (/Users/xb/Documents/happyError/app/controller/up.js:9:9)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/xb/Documents/happyError/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9930
+hostname: mac.local
+
+2019-08-09 18:47:45,752 ERROR 9930 nodejs.TypeError: ctx.body is not a function
+    at UpController.index (/Users/xb/Documents/happyError/app/controller/up.js:9:9)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/xb/Documents/happyError/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9930
+hostname: mac.local
+
+2019-08-09 18:47:45,905 ERROR 9930 nodejs.TypeError: ctx.body is not a function
+    at UpController.index (/Users/xb/Documents/happyError/app/controller/up.js:9:9)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/xb/Documents/happyError/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9930
+hostname: mac.local
+
+2019-08-09 18:47:46,076 ERROR 9930 nodejs.TypeError: ctx.body is not a function
+    at UpController.index (/Users/xb/Documents/happyError/app/controller/up.js:9:9)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/xb/Documents/happyError/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9930
+hostname: mac.local
+
+2019-08-09 18:47:46,228 ERROR 9930 nodejs.TypeError: ctx.body is not a function
+    at UpController.index (/Users/xb/Documents/happyError/app/controller/up.js:9:9)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/xb/Documents/happyError/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9930
+hostname: mac.local
+
+2019-08-09 18:47:46,355 ERROR 9930 nodejs.TypeError: ctx.body is not a function
+    at UpController.index (/Users/xb/Documents/happyError/app/controller/up.js:9:9)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/xb/Documents/happyError/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9930
+hostname: mac.local
+
+2019-08-09 18:47:56,357 ERROR 9938 nodejs.TypeError: ctx.body is not a function
+    at UpController.index (/Users/xb/Documents/happyError/app/controller/up.js:8:9)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/xb/Documents/happyError/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9938
+hostname: mac.local
+
+2019-08-09 18:48:05,411 ERROR 9946 nodejs.TypeError: ctx.res.body is not a function
+    at UpController.index (/Users/xb/Documents/happyError/app/controller/up.js:8:13)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/xb/Documents/happyError/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9946
+hostname: mac.local
+
+2019-08-10 08:56:35,754 ERROR 778 [-/127.0.0.1/-/8ms GET /up] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/xb/Documents/happyError/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/xb/Documents/happyError/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/xb/Documents/happyError/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/xb/Documents/happyError/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/xb/Documents/happyError/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at /Users/xb/Documents/happyError/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/xb/Documents/happyError/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+
+pid: 778
+hostname: mac.local
+
+2019-08-10 08:56:37,010 ERROR 778 [-/127.0.0.1/-/1ms GET /up] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/xb/Documents/happyError/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/xb/Documents/happyError/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/xb/Documents/happyError/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/xb/Documents/happyError/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/xb/Documents/happyError/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at /Users/xb/Documents/happyError/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/xb/Documents/happyError/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+
+pid: 778
+hostname: mac.local
+
+2019-08-10 08:56:37,687 ERROR 778 [-/127.0.0.1/-/1ms GET /up] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/xb/Documents/happyError/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/xb/Documents/happyError/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/xb/Documents/happyError/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/xb/Documents/happyError/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/xb/Documents/happyError/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at /Users/xb/Documents/happyError/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/xb/Documents/happyError/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+
+pid: 778
+hostname: mac.local
+
+2019-08-10 08:56:38,172 ERROR 778 [-/127.0.0.1/-/0ms GET /up] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/xb/Documents/happyError/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/xb/Documents/happyError/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/xb/Documents/happyError/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/xb/Documents/happyError/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/xb/Documents/happyError/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at /Users/xb/Documents/happyError/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/xb/Documents/happyError/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+
+pid: 778
+hostname: mac.local
+
+2019-08-10 08:56:38,600 ERROR 778 [-/127.0.0.1/-/0ms GET /up] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/xb/Documents/happyError/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/xb/Documents/happyError/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/xb/Documents/happyError/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/xb/Documents/happyError/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/xb/Documents/happyError/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at /Users/xb/Documents/happyError/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/xb/Documents/happyError/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+
+pid: 778
+hostname: mac.local
+
+2019-08-10 08:58:37,542 ERROR 850 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at /Users/xb/Documents/happyError/app/middleware/getPlatform.js:6:5
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at /Users/xb/Documents/happyError/app/middleware/getIp.js:6:5
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at /Users/xb/Documents/happyError/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/xb/Documents/happyError/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+name: "unhandledRejectionError"
+pid: 850
+hostname: mac.local
+
+2019-08-10 08:58:37,563 ERROR 850 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at /Users/xb/Documents/happyError/app/utils/index.js:93:7
+    at _self.(anonymous function) (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:274:33)
+    at fs.read (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:116:17)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:462:17)
+name: "unhandledRejectionError"
+pid: 850
+hostname: mac.local
+
+2019-08-10 08:58:38,237 ERROR 850 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at /Users/xb/Documents/happyError/app/middleware/getPlatform.js:6:5
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at /Users/xb/Documents/happyError/app/middleware/getIp.js:6:5
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at /Users/xb/Documents/happyError/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/xb/Documents/happyError/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+name: "unhandledRejectionError"
+pid: 850
+hostname: mac.local
+
+2019-08-10 08:58:38,243 ERROR 850 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at /Users/xb/Documents/happyError/app/utils/index.js:93:7
+    at _self.(anonymous function) (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:274:33)
+    at fs.read (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:116:17)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:462:17)
+name: "unhandledRejectionError"
+pid: 850
+hostname: mac.local
+
+2019-08-10 08:58:38,517 ERROR 850 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at /Users/xb/Documents/happyError/app/middleware/getPlatform.js:6:5
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at /Users/xb/Documents/happyError/app/middleware/getIp.js:6:5
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at /Users/xb/Documents/happyError/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/xb/Documents/happyError/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+name: "unhandledRejectionError"
+pid: 850
+hostname: mac.local
+
+2019-08-10 08:58:38,522 ERROR 850 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at /Users/xb/Documents/happyError/app/utils/index.js:93:7
+    at _self.(anonymous function) (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:274:33)
+    at fs.read (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:116:17)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:462:17)
+name: "unhandledRejectionError"
+pid: 850
+hostname: mac.local
+
+2019-08-10 08:58:38,676 ERROR 850 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at /Users/xb/Documents/happyError/app/middleware/getPlatform.js:6:5
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at /Users/xb/Documents/happyError/app/middleware/getIp.js:6:5
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at /Users/xb/Documents/happyError/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/xb/Documents/happyError/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+name: "unhandledRejectionError"
+pid: 850
+hostname: mac.local
+
+2019-08-10 08:58:38,677 ERROR 850 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at /Users/xb/Documents/happyError/app/utils/index.js:93:7
+    at _self.(anonymous function) (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:274:33)
+    at fs.read (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:116:17)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:462:17)
+name: "unhandledRejectionError"
+pid: 850
+hostname: mac.local
+
+2019-08-10 08:58:38,851 ERROR 850 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at /Users/xb/Documents/happyError/app/middleware/getPlatform.js:6:5
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at /Users/xb/Documents/happyError/app/middleware/getIp.js:6:5
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at /Users/xb/Documents/happyError/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/xb/Documents/happyError/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+name: "unhandledRejectionError"
+pid: 850
+hostname: mac.local
+
+2019-08-10 08:58:38,852 ERROR 850 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at /Users/xb/Documents/happyError/app/utils/index.js:93:7
+    at _self.(anonymous function) (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:274:33)
+    at fs.read (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:116:17)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:462:17)
+name: "unhandledRejectionError"
+pid: 850
+hostname: mac.local
+
+2019-08-10 08:59:06,315 ERROR 875 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at /Users/xb/Documents/happyError/app/utils/index.js:93:7
+    at _self.(anonymous function) (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:274:33)
+    at fs.read (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:116:17)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:462:17)
+name: "unhandledRejectionError"
+pid: 875
+hostname: mac.local
+
+2019-08-10 08:59:59,012 ERROR 910 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at /Users/xb/Documents/happyError/app/utils/index.js:93:7
+    at _self.(anonymous function) (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:274:33)
+    at fs.read (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:116:17)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:462:17)
+name: "unhandledRejectionError"
+pid: 910
+hostname: mac.local
+
+2019-08-10 08:59:59,578 ERROR 910 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at /Users/xb/Documents/happyError/app/utils/index.js:93:7
+    at _self.(anonymous function) (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:274:33)
+    at fs.read (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:116:17)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:462:17)
+name: "unhandledRejectionError"
+pid: 910
+hostname: mac.local
+
+2019-08-10 08:59:59,770 ERROR 910 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at /Users/xb/Documents/happyError/app/utils/index.js:93:7
+    at _self.(anonymous function) (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:274:33)
+    at fs.read (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:116:17)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:462:17)
+name: "unhandledRejectionError"
+pid: 910
+hostname: mac.local
+
+2019-08-10 09:00:00,021 ERROR 910 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at /Users/xb/Documents/happyError/app/utils/index.js:93:7
+    at _self.(anonymous function) (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:274:33)
+    at fs.read (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:116:17)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:462:17)
+name: "unhandledRejectionError"
+pid: 910
+hostname: mac.local
+
+2019-08-10 09:04:01,054 ERROR 959 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at /Users/xb/Documents/happyError/app/utils/index.js:94:7
+    at _self.(anonymous function) (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:274:33)
+    at fs.read (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:116:17)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:462:17)
+name: "unhandledRejectionError"
+pid: 959
+hostname: mac.local
+
+2019-08-10 09:04:01,802 ERROR 959 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at /Users/xb/Documents/happyError/app/utils/index.js:94:7
+    at _self.(anonymous function) (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:274:33)
+    at fs.read (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:116:17)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:462:17)
+name: "unhandledRejectionError"
+pid: 959
+hostname: mac.local
+
+2019-08-10 09:04:02,212 ERROR 959 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at /Users/xb/Documents/happyError/app/utils/index.js:94:7
+    at _self.(anonymous function) (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:274:33)
+    at fs.read (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:116:17)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:462:17)
+name: "unhandledRejectionError"
+pid: 959
+hostname: mac.local
+
+2019-08-10 09:04:02,473 ERROR 959 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at /Users/xb/Documents/happyError/app/utils/index.js:94:7
+    at _self.(anonymous function) (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:274:33)
+    at fs.read (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:116:17)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:462:17)
+name: "unhandledRejectionError"
+pid: 959
+hostname: mac.local
+
+2019-08-10 09:04:02,603 ERROR 959 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at /Users/xb/Documents/happyError/app/utils/index.js:94:7
+    at _self.(anonymous function) (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:274:33)
+    at fs.read (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:116:17)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:462:17)
+name: "unhandledRejectionError"
+pid: 959
+hostname: mac.local
+
+2019-08-10 09:04:02,735 ERROR 959 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at /Users/xb/Documents/happyError/app/utils/index.js:94:7
+    at _self.(anonymous function) (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:274:33)
+    at fs.read (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:116:17)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:462:17)
+name: "unhandledRejectionError"
+pid: 959
+hostname: mac.local
+
+2019-08-10 09:04:02,894 ERROR 959 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at /Users/xb/Documents/happyError/app/utils/index.js:94:7
+    at _self.(anonymous function) (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:274:33)
+    at fs.read (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:116:17)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:462:17)
+name: "unhandledRejectionError"
+pid: 959
+hostname: mac.local
+
+2019-08-10 09:07:35,149 ERROR 991 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at searcher.binarySearch (/Users/xb/Documents/happyError/app/utils/index.js:94:5)
+    at _self.(anonymous function) (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:274:33)
+    at fs.read (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:116:17)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:462:17)
+name: "unhandledRejectionError"
+pid: 991
+hostname: mac.local
+
+2019-08-10 09:07:35,266 ERROR 991 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at searcher.binarySearch (/Users/xb/Documents/happyError/app/utils/index.js:94:5)
+    at _self.(anonymous function) (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:274:33)
+    at fs.read (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:116:17)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:462:17)
+name: "unhandledRejectionError"
+pid: 991
+hostname: mac.local
+
+2019-08-10 09:07:35,415 ERROR 991 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at searcher.binarySearch (/Users/xb/Documents/happyError/app/utils/index.js:94:5)
+    at _self.(anonymous function) (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:274:33)
+    at fs.read (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:116:17)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:462:17)
+name: "unhandledRejectionError"
+pid: 991
+hostname: mac.local
+
+2019-08-10 09:08:02,499 ERROR 1014 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at searcher.binarySearch (/Users/xb/Documents/happyError/app/utils/index.js:94:5)
+    at _self.(anonymous function) (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:274:33)
+    at fs.read (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:116:17)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:462:17)
+name: "unhandledRejectionError"
+pid: 1014
+hostname: mac.local
+
+2019-08-10 09:08:03,309 ERROR 1014 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at searcher.binarySearch (/Users/xb/Documents/happyError/app/utils/index.js:94:5)
+    at _self.(anonymous function) (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:274:33)
+    at fs.read (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:116:17)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:462:17)
+name: "unhandledRejectionError"
+pid: 1014
+hostname: mac.local
+
+2019-08-10 09:08:03,664 ERROR 1014 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at searcher.binarySearch (/Users/xb/Documents/happyError/app/utils/index.js:94:5)
+    at _self.(anonymous function) (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:274:33)
+    at fs.read (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:116:17)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:462:17)
+name: "unhandledRejectionError"
+pid: 1014
+hostname: mac.local
+
+2019-08-10 09:08:03,839 ERROR 1014 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at searcher.binarySearch (/Users/xb/Documents/happyError/app/utils/index.js:94:5)
+    at _self.(anonymous function) (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:274:33)
+    at fs.read (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:116:17)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:462:17)
+name: "unhandledRejectionError"
+pid: 1014
+hostname: mac.local
+
+2019-08-10 09:08:03,998 ERROR 1014 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at searcher.binarySearch (/Users/xb/Documents/happyError/app/utils/index.js:94:5)
+    at _self.(anonymous function) (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:274:33)
+    at fs.read (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:116:17)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:462:17)
+name: "unhandledRejectionError"
+pid: 1014
+hostname: mac.local
+
+2019-08-10 09:08:04,141 ERROR 1014 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at searcher.binarySearch (/Users/xb/Documents/happyError/app/utils/index.js:94:5)
+    at _self.(anonymous function) (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:274:33)
+    at fs.read (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:116:17)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:462:17)
+name: "unhandledRejectionError"
+pid: 1014
+hostname: mac.local
+
+2019-08-10 09:08:04,318 ERROR 1014 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at searcher.binarySearch (/Users/xb/Documents/happyError/app/utils/index.js:94:5)
+    at _self.(anonymous function) (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:274:33)
+    at fs.read (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:116:17)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:462:17)
+name: "unhandledRejectionError"
+pid: 1014
+hostname: mac.local
+
+2019-08-10 09:08:14,950 ERROR 1061 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at searcher.binarySearch (/Users/xb/Documents/happyError/app/utils/index.js:94:5)
+    at _self.(anonymous function) (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:274:33)
+    at fs.read (/Users/xb/Documents/happyError/node_modules/evenboy-ip2region/ip2region.js:116:17)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:462:17)
+name: "unhandledRejectionError"
+pid: 1061
+hostname: mac.local
+
+2019-08-10 09:13:22,823 ERROR 1186 [-/127.0.0.1/-/12ms GET /up] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/xb/Documents/happyError/node_modules/koa/lib/application.js:243:15)
+    at handleResponse (/Users/xb/Documents/happyError/node_modules/koa/lib/application.js:149:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 1186
+hostname: mac.local
+
+2019-08-10 09:13:40,803 ERROR 1194 nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at UpController.index (/Users/xb/Documents/happyError/app/controller/up.js:8:25)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/xb/Documents/happyError/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+
+pid: 1194
+hostname: mac.local
+
+2019-08-10 09:13:41,575 ERROR 1194 nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at UpController.index (/Users/xb/Documents/happyError/app/controller/up.js:8:25)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/xb/Documents/happyError/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/xb/Documents/happyError/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/xb/Documents/happyError/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+
+pid: 1194
+hostname: mac.local
+
+2019-08-10 09:15:02,823 ERROR 1256 [-/127.0.0.1/-/13ms GET /up] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/xb/Documents/happyError/node_modules/koa/lib/application.js:243:15)
+    at handleResponse (/Users/xb/Documents/happyError/node_modules/koa/lib/application.js:149:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 1256
+hostname: mac.local
+
+2019-08-10 09:15:02,827 ERROR 1256 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at Object.exports.getPlatform (/Users/xb/Documents/happyError/app/utils/index.js:110:3)
+    at /Users/xb/Documents/happyError/app/middleware/headers.js:6:10
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at /Users/xb/Documents/happyError/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/xb/Documents/happyError/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/xb/Documents/happyError/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+name: "unhandledRejectionError"
+pid: 1256
+hostname: mac.local
+
+2019-08-10 09:18:09,284 ERROR 1324 [-/127.0.0.1/-/18ms GET /up] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/xb/Documents/happyError/node_modules/koa/lib/application.js:243:15)
+    at handleResponse (/Users/xb/Documents/happyError/node_modules/koa/lib/application.js:149:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 1324
+hostname: mac.local
+
+2019-08-10 09:19:05,338 ERROR 1358 [-/127.0.0.1/-/11ms GET /up] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/xb/Documents/happyError/node_modules/koa/lib/application.js:243:15)
+    at handleResponse (/Users/xb/Documents/happyError/node_modules/koa/lib/application.js:149:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 1358
+hostname: mac.local
+
+2019-08-10 09:20:37,655 ERROR 1404 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at Object.exports.getPlatform (/Users/xb/Documents/happyError/app/utils/index.js:111:3)
+    at /Users/xb/Documents/happyError/app/middleware/headers.js:7:10
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "unhandledRejectionError"
+pid: 1404
+hostname: mac.local
+
+2019-08-10 09:20:38,141 ERROR 1404 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at Object.exports.getPlatform (/Users/xb/Documents/happyError/app/utils/index.js:111:3)
+    at /Users/xb/Documents/happyError/app/middleware/headers.js:7:10
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "unhandledRejectionError"
+pid: 1404
+hostname: mac.local
+
+2019-08-10 09:20:38,340 ERROR 1404 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at Object.exports.getPlatform (/Users/xb/Documents/happyError/app/utils/index.js:111:3)
+    at /Users/xb/Documents/happyError/app/middleware/headers.js:7:10
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "unhandledRejectionError"
+pid: 1404
+hostname: mac.local
+
+2019-08-10 09:21:32,912 ERROR 1404 nodejs.unhandledRejectionError: next() called multiple times
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:36:45)
+    at Object.exports.getPlatform (/Users/xb/Documents/happyError/app/utils/index.js:111:3)
+    at /Users/xb/Documents/happyError/app/middleware/headers.js:7:10
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "unhandledRejectionError"
+pid: 1404
+hostname: mac.local
+

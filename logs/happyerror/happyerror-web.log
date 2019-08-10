@@ -70,3 +70,114 @@ hostname: mac.local
 pid: 11253
 hostname: mac.local
 
+2019-08-10 08:56:35,754 ERROR 778 [-/127.0.0.1/-/8ms GET /up] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/xb/Documents/happyError/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/xb/Documents/happyError/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/xb/Documents/happyError/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/xb/Documents/happyError/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/xb/Documents/happyError/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at /Users/xb/Documents/happyError/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/xb/Documents/happyError/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+
+pid: 778
+hostname: mac.local
+
+2019-08-10 08:56:37,010 ERROR 778 [-/127.0.0.1/-/1ms GET /up] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/xb/Documents/happyError/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/xb/Documents/happyError/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/xb/Documents/happyError/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/xb/Documents/happyError/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/xb/Documents/happyError/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at /Users/xb/Documents/happyError/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/xb/Documents/happyError/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+
+pid: 778
+hostname: mac.local
+
+2019-08-10 08:56:37,687 ERROR 778 [-/127.0.0.1/-/1ms GET /up] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/xb/Documents/happyError/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/xb/Documents/happyError/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/xb/Documents/happyError/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/xb/Documents/happyError/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/xb/Documents/happyError/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at /Users/xb/Documents/happyError/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/xb/Documents/happyError/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+
+pid: 778
+hostname: mac.local
+
+2019-08-10 08:56:38,173 ERROR 778 [-/127.0.0.1/-/0ms GET /up] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/xb/Documents/happyError/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/xb/Documents/happyError/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/xb/Documents/happyError/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/xb/Documents/happyError/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/xb/Documents/happyError/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at /Users/xb/Documents/happyError/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/xb/Documents/happyError/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+
+pid: 778
+hostname: mac.local
+
+2019-08-10 08:56:38,601 ERROR 778 [-/127.0.0.1/-/0ms GET /up] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/xb/Documents/happyError/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/xb/Documents/happyError/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/xb/Documents/happyError/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/xb/Documents/happyError/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/xb/Documents/happyError/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at /Users/xb/Documents/happyError/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/xb/Documents/happyError/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/xb/Documents/happyError/node_modules/koa-compose/index.js:42:32)
+
+pid: 778
+hostname: mac.local
+
+2019-08-10 09:13:22,823 ERROR 1186 [-/127.0.0.1/-/12ms GET /up] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/xb/Documents/happyError/node_modules/koa/lib/application.js:243:15)
+    at handleResponse (/Users/xb/Documents/happyError/node_modules/koa/lib/application.js:149:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 1186
+hostname: mac.local
+
+2019-08-10 09:15:02,824 ERROR 1256 [-/127.0.0.1/-/13ms GET /up] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/xb/Documents/happyError/node_modules/koa/lib/application.js:243:15)
+    at handleResponse (/Users/xb/Documents/happyError/node_modules/koa/lib/application.js:149:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 1256
+hostname: mac.local
+
+2019-08-10 09:18:09,285 ERROR 1324 [-/127.0.0.1/-/18ms GET /up] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/xb/Documents/happyError/node_modules/koa/lib/application.js:243:15)
+    at handleResponse (/Users/xb/Documents/happyError/node_modules/koa/lib/application.js:149:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 1324
+hostname: mac.local
+
+2019-08-10 09:19:05,338 ERROR 1358 [-/127.0.0.1/-/11ms GET /up] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/xb/Documents/happyError/node_modules/koa/lib/application.js:243:15)
+    at handleResponse (/Users/xb/Documents/happyError/node_modules/koa/lib/application.js:149:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 1358
+hostname: mac.local
+

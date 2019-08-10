@@ -1,6 +1,6 @@
 module.exports = {
   keys: '123',
-  middleware: ['getIp', 'getPlatform'],
+  middleware: ['headers'],
   Sequelize: {
     dialect: 'mysql',
     host: '127.0.0.1',

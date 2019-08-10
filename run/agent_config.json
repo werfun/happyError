@@ -299,7 +299,8 @@
     },
     "onClientError": null,
     "middleware": [
-      "getIp"
+      "getIp",
+      "getPlatform"
     ],
     "Sequelize": {
       "dialect": "mysql",
