@@ -2,12 +2,35 @@
   {
     "name": null,
     "methods": [
-      "HEAD",
-      "GET"
+      "POST"
     ],
     "paramNames": [],
     "path": "/up",
     "regexp": "/^\\/up(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/up/page/create",
+    "regexp": "/^\\/up\\/page\\/create(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/up/page/update",
+    "regexp": "/^\\/up\\/page\\/update(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

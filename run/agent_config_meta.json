@@ -1,7 +1,7 @@
 {
   "keys": "/Users/xb/Documents/happyError/config/config.default.js",
   "middleware": "/Users/xb/Documents/happyError/config/config.default.js",
-  "Sequelize": {
+  "sequelize": {
     "dialect": "/Users/xb/Documents/happyError/config/config.default.js",
     "host": "/Users/xb/Documents/happyError/config/config.default.js",
     "port": "/Users/xb/Documents/happyError/config/config.default.js",
@@ -10,22 +10,16 @@
     "database": "/Users/xb/Documents/happyError/config/config.default.js",
     "pool": {
       "max": "/Users/xb/Documents/happyError/config/config.default.js",
-      "min": "/Users/xb/Documents/happyError/config/config.default.js"
+      "min": "/Users/xb/Documents/happyError/config/config.default.js",
+      "acquire": "/Users/xb/Documents/happyError/config/config.default.js",
+      "idle": "/Users/xb/Documents/happyError/config/config.default.js"
     },
     "timezone": "/Users/xb/Documents/happyError/config/config.default.js"
   },
-  "session": {
-    "maxAge": "/Users/xb/Documents/happyError/node_modules/egg-session/config/config.default.js",
-    "key": "/Users/xb/Documents/happyError/node_modules/egg-session/config/config.default.js",
-    "httpOnly": "/Users/xb/Documents/happyError/node_modules/egg-session/config/config.default.js",
-    "encrypt": "/Users/xb/Documents/happyError/node_modules/egg-session/config/config.default.js"
-  },
+  "ipHeaders": "/Users/xb/Documents/happyError/config/config.default.js",
   "security": {
-    "domainWhiteList": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js",
-    "protocolWhiteList": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js",
-    "defaultMiddleware": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js",
     "csrf": {
-      "enable": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js",
+      "enable": "/Users/xb/Documents/happyError/config/config.default.js",
       "useSession": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js",
       "ignoreJSON": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js",
       "cookieName": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js",
@@ -34,6 +28,9 @@
       "bodyName": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js",
       "queryName": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js"
     },
+    "domainWhiteList": "/Users/xb/Documents/happyError/config/config.default.js",
+    "protocolWhiteList": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js",
     "xframe": {
       "enable": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js",
       "value": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js"
@@ -71,6 +68,16 @@
       "ipBlackList": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js",
       "checkAddress": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js"
     }
+  },
+  "cors": {
+    "origin": "/Users/xb/Documents/happyError/config/config.default.js",
+    "allowMethods": "/Users/xb/Documents/happyError/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/xb/Documents/happyError/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/xb/Documents/happyError/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/xb/Documents/happyError/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/xb/Documents/happyError/node_modules/egg-session/config/config.default.js"
   },
   "helper": {
     "shtml": "/Users/xb/Documents/happyError/node_modules/egg-security/config/config.default.js"
@@ -161,7 +168,6 @@
   "proxy": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
   "maxProxyCount": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
   "protocolHeaders": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
-  "ipHeaders": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
   "hostHeaders": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
   "pkg": {
     "name": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
@@ -190,6 +196,7 @@
       "body-parser": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
       "egg": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
       "egg-bin": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
       "egg-sequelize": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
       "ejs": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
       "evenboy-ip2region": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
@@ -202,6 +209,7 @@
       "gulp-sourcemaps": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
       "gulp-uglify": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
       "mysql": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
+      "mysql2": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
       "nodemon": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
       "path": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",
       "pump": "/Users/xb/Documents/happyError/node_modules/egg/config/config.default.js",

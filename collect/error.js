@@ -1,12 +1,19 @@
+let errorMap = {}
+
 function upError (msg) {
-  _ajax({
-    url: '/up',
+  let req = {
+    url: '/up/error/js',
     type: 'post',
     data: {
-      type: 'js',
       msg
     },
-  })
+  }
+  // 避免重复请求
+  let reqStr = JSON.stringify(req)
+  if (errorMap[reqStr]) return false
+  errorMap[reqStr] = true
+  console.log(errorMap[reqStr])
+  _ajax(req)
 }
 
 window.onerror = function (msg, url, row, col, error) {

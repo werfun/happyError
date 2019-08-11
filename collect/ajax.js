@@ -4,7 +4,7 @@
     url,
     data
   }) {
-    let baseUrl = 'http://127.0.0.1:1212'
+    let baseUrl = 'http://127.0.0.1:7001'
     let vals = []
     url = baseUrl + url
     return new Promise(function(resolve){

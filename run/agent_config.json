@@ -7,11 +7,13 @@
       "encrypt": true
     },
     "security": {
-      "domainWhiteList": [],
+      "domainWhiteList": [
+        "*"
+      ],
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
       "csrf": {
-        "enable": true,
+        "enable": false,
         "useSession": false,
         "ignoreJSON": false,
         "cookieName": "csrfToken",
@@ -146,13 +148,32 @@
       "defaultViewEngine": "",
       "mapping": {}
     },
+    "sequelize": {
+      "dialect": "mysql",
+      "database": "happy_error",
+      "host": "localhost",
+      "port": "3306",
+      "username": "root",
+      "password": "<String len: 6>",
+      "pool": {
+        "max": 5,
+        "min": 0,
+        "acquire": 30000,
+        "idle": 10000
+      },
+      "timezone": "+08:00"
+    },
+    "cors": {
+      "origin": "*",
+      "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS"
+    },
     "env": "local",
     "name": "happyerror",
     "keys": "<String len: 3>",
     "proxy": false,
     "maxProxyCount": 0,
     "protocolHeaders": "x-forwarded-proto",
-    "ipHeaders": "x-forwarded-for",
+    "ipHeaders": "X-Real-Ip, X-Forwarded-For",
     "hostHeaders": "",
     "pkg": {
       "name": "happyerror",
@@ -181,6 +202,7 @@
         "body-parser": "^1.19.0",
         "egg": "^2.23.0",
         "egg-bin": "^4.13.0",
+        "egg-cors": "^2.2.0",
         "egg-sequelize": "^5.2.0",
         "ejs": "^2.6.2",
         "evenboy-ip2region": "^0.0.3",
@@ -193,6 +215,7 @@
         "gulp-sourcemaps": "^2.6.5",
         "gulp-uglify": "^3.0.2",
         "mysql": "^2.17.1",
+        "mysql2": "^1.6.5",
         "nodemon": "^1.19.1",
         "path": "^0.12.7",
         "pump": "^3.0.0",
@@ -299,22 +322,8 @@
     },
     "onClientError": null,
     "middleware": [
-      "getIp",
-      "getPlatform"
+      "headers"
     ],
-    "Sequelize": {
-      "dialect": "mysql",
-      "host": "127.0.0.1",
-      "port": "3306",
-      "username": "root",
-      "password": "<String len: 6>",
-      "database": "happy_error",
-      "pool": {
-        "max": 5,
-        "min": 0
-      },
-      "timezone": "+08:00"
-    },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
     "appMiddleware": "~config~middleware"
@@ -465,6 +474,28 @@
       "from": "/Users/xb/Documents/happyError/node_modules/egg/config/plugin.js",
       "path": "/Users/xb/Documents/happyError/node_modules/egg-view",
       "version": "2.1.2"
+    },
+    "sequelize": {
+      "enable": true,
+      "package": "egg-sequelize",
+      "name": "sequelize",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/xb/Documents/happyError/config/plugin.js",
+      "path": "/Users/xb/Documents/happyError/node_modules/egg-sequelize",
+      "version": "5.2.0"
+    },
+    "cors": {
+      "enable": true,
+      "package": "egg-cors",
+      "name": "cors",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/xb/Documents/happyError/config/plugin.js",
+      "path": "/Users/xb/Documents/happyError/node_modules/egg-cors",
+      "version": "2.2.0"
     }
   }
 }

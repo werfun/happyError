@@ -35,6 +35,7 @@ let provinceData = [
 ]
 
 exports.getIp = function (ctx) {
+  console.log('中间间')
   let req = ctx.req
   let netInfo = {
     city_nameCN: '未知',

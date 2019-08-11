@@ -39,10 +39,9 @@ document.ready((e) => $happyError.readyTime = e.timeStamp)
 window.onload = (e) => {
   $happyError.onloadTime = e.timeStamp
   _ajax({
-    url: '/up',
+    url: '/up/page/create',
     type: 'post',
     data: {
-      type: 'page',
       ...$happyError
     },
   }).then(res => {
@@ -51,10 +50,9 @@ window.onload = (e) => {
       setInterval(() => {
         // 更新用户浏览时间
         _ajax({
-          url: '/up',
+          url: '/up/page/update',
           type: 'post',
           data: {
-            type: 'updatePage',
             id: res.msg.insertId,
             duringTime: +new Date() - createTime
           },
@@ -63,10 +61,9 @@ window.onload = (e) => {
       
       // 资源加载详情信息
       _ajax({
-        url: '/up',
+        url: '/up/resource/create',
         type: 'post',
         data: {
-          type: 'resource',
           id: res.msg.insertId,
           msg: getResource()
         }
