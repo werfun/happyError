@@ -47,6 +47,7 @@ exports.getIp = function (ctx) {
     isp: '未知',
     organizationCN: '未知'
   };
+  ctx.netInfo = netInfo
   var tempIp = getClientIP(req);
   if (tempIp == "::1") {
     netInfo = {

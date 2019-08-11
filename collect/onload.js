@@ -53,7 +53,7 @@ window.onload = (e) => {
           url: '/up/page/update',
           type: 'post',
           data: {
-            id: res.msg.insertId,
+            id: res.msg.id,
             duringTime: +new Date() - createTime
           },
         })
@@ -64,7 +64,7 @@ window.onload = (e) => {
         url: '/up/resource/create',
         type: 'post',
         data: {
-          id: res.msg.insertId,
+          id: res.msg.id,
           msg: getResource()
         }
       })

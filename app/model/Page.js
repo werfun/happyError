@@ -21,8 +21,7 @@ module.exports = app => {
       comment: '浏览地址'
     },
     project: {
-      type: Sequelize.STRING(32),
-      allowNull: false,
+      type: Sequelize.STRING(32)
     },
     browser: {
       type: Sequelize.STRING(16),
@@ -50,21 +49,21 @@ module.exports = app => {
     },
     during_time: {
       type: Sequelize.BIGINT(10),
-      allowNull: false,
       comment: '访问持续时间'
     },
-    create_time: {
-      type: Sequelize.DATE,
-      allowNull: false,
+    create_at: {
+      type: Sequelize.DATE
     }
   }, {
+    tableName: 'page_info',
     timestamps: false
   })
 
   Page.updateById = async function(msg) {
-    return await this.update({
-      where: { ip }
-    });
+    return await this.update(
+      { during_time: msg.during_time },
+      { where: { user_id: msg.id }}
+    );
   }
 
   return Page;

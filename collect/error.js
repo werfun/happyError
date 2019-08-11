@@ -12,7 +12,6 @@ function upError (msg) {
   let reqStr = JSON.stringify(req)
   if (errorMap[reqStr]) return false
   errorMap[reqStr] = true
-  console.log(errorMap[reqStr])
   _ajax(req)
 }
 
@@ -34,3 +33,5 @@ window.addEventListener("unhandledrejection", function (e) {
   upError(e)
   return true;
 });
+
+throw new Error('错误啦')

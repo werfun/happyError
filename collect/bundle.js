@@ -1,3 +1,4 @@
+
 ;(function () {
   function ajaxEventTrigger (event) {
    var ajaxEvent = new CustomEvent(event, { detail: this });
@@ -7,16 +8,20 @@
   function upError (event) {
     let target = event.target
     if (target.status !== 200 && target.responseURL) {
-      _ajax ({
-        url: '/up',
+      let errorMap = {}
+      let req = {
+        url: '/up/error/api',
         type: 'post',
         data: {
-          type: 'api',
           request_url: target.responseURL,
           error_code: target.status,
           msg: target.responseText
         }
-      })
+      }
+      let reqStr = JSON.stringify(req)
+      if (errorMap[reqStr]) return false
+      errorMap[reqStr] = true
+      _ajax (req)
     }
   }
   var oldXHR = window.XMLHttpRequest;
@@ -28,6 +33,6 @@
     return realXHR
   }
   
-window.XMLHttpRequest = newXHR
+  window.XMLHttpRequest = newXHR
 })();
 
