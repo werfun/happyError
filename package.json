@@ -29,7 +29,7 @@
     "egg-sequelize": "^5.2.0",
     "ejs": "^2.6.2",
     "evenboy-ip2region": "^0.0.3",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "gulp": "^3.9.1",
     "gulp-babel": "^8.0.0",
     "gulp-changed": "^4.0.0",
